@@ -1,4 +1,4 @@
-MAIN=cv
+MAIN=resume_ch
 LATEX=xelatex
 BIBTEX=biber
 RM=rm -f
@@ -13,7 +13,7 @@ $(MAIN).pdf: *.tex
 	$(LATEX) $(MAIN)
 	$(LATEX) $(MAIN)
 clean:
-	$(RM) *.log *.aux *.dvi *.lof *.toc *.bbl *.blg *.bcf *.xml *.out
+	$(RM) *.log *.aux *.dvi *.lof *.toc *.bbl *.blg *.bcf *.xml
 clean-pdf:
 	$(RM) *.pdf
 clean-all: clean-pdf clean
