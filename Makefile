@@ -13,7 +13,7 @@ $(MAIN).pdf: *.tex
 	$(LATEX) $(MAIN)
 	$(LATEX) $(MAIN)
 clean:
-	$(RM) *.log *.aux *.dvi *.lof *.toc *.bbl *.blg *.bcf *.xml
+	$(RM) *.log *.aux *.dvi *.lof *.toc *.bbl *.blg *.bcf *.xml *.out
 clean-pdf:
 	$(RM) *.pdf
 clean-all: clean-pdf clean

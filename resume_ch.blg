@@ -1,5 +1,0 @@
-[1] Config.pm:324> INFO - This is Biber 2.1
-[1] Config.pm:327> INFO - Logfile is 'resume_ch.blg'
-[72] biber-darwin:276> INFO - === äº  3  1, 2016, 23:15:15
-[72] Biber.pm:333> INFO - Reading 'resume_ch.bcf'
-[210] Utils.pm:146> WARN - No data sources defined!
